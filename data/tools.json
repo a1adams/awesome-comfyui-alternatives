@@ -1,0 +1,204 @@
+{
+  "keyword": "comfyui alternatives",
+  "title": "Best ComfyUI Alternatives for Creative Teams (2026)",
+  "lastChecked": "2026-09-01",
+  "capabilityChecks": [
+    {
+      "key": "sharedWorkflows",
+      "label": "Shared workflows"
+    },
+    {
+      "key": "publicApi",
+      "label": "Public API"
+    },
+    {
+      "key": "costVisibility",
+      "label": "Cost visibility"
+    },
+    {
+      "key": "batchSupport",
+      "label": "Batch support"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best Overall",
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs/mcp",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
+      "restApi": true,
+      "modelSupport": "Multi-model catalog across image, video and audio nodes",
+      "freeTier": "yes",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "In Claude Desktop or claude.ai, add the same URL as a custom connector. Read-only tools (`list_workflows`, `list_models`, `get_execution`) cost nothing; `run_workflow` is the only one that spends credits.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/api/mcp"
+        }
+      ],
+      "capabilities": {
+        "sharedWorkflows": true,
+        "publicApi": true,
+        "costVisibility": true,
+        "batchSupport": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Krea",
+      "tagline": "· hosted generation canvas with node apps and a documented REST API",
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/",
+      "pricing": "https://www.krea.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Krea’s hosted image and video models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": null,
+      "capabilities": {
+        "sharedWorkflows": true,
+        "publicApi": true,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Freepik Spaces",
+      "tagline": "· UI-only canvas bundled with a large licensed stock library",
+      "homepage": "https://www.freepik.com/spaces",
+      "docs": "https://www.freepik.com/ai/docs",
+      "pricing": "https://www.freepik.com/pricing",
+      "claudeConnection": "No first-party MCP server documented for Spaces",
+      "restApi": true,
+      "modelSupport": "Freepik’s hosted image, video and audio models",
+      "freeTier": "yes",
+      "repo": null,
+      "note": "Freepik’s own Spaces docs state a free user can create up to 3 Spaces. Checked 2026-09-01: the developer API docs at docs.freepik.com now redirect to docs.magnific.com, Freepik’s API brand.",
+      "quickstart": null,
+      "capabilities": {
+        "sharedWorkflows": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Figma Weave",
+      "tagline": "· AI canvas now sold inside the Figma design suite",
+      "homepage": "https://weave.figma.com",
+      "docs": "https://help.figma.com",
+      "pricing": "https://weave.figma.com/pricing",
+      "claudeConnection": "No first-party MCP server documented for Weave",
+      "restApi": false,
+      "modelSupport": "Third-party models inside the Weave canvas",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Checked 2026-09-01: weavy.ai redirects to weave.figma.com and the site states \"Weavy is now Figma Weave.\" No public Weave API or developer docs are published; the trial is marked \"eligible plans only\".",
+      "quickstart": null,
+      "capabilities": {
+        "sharedWorkflows": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Flair.ai",
+      "tagline": "· ecommerce product photoshoot canvas with category templates",
+      "homepage": "https://www.flair.ai",
+      "docs": null,
+      "pricing": "https://www.flair.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Flair’s hosted product-photography models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Re-checked 2026-09-01: flair.ai's homepage lists a \"Flair API\" as a key feature (\"Access via API for integration\") and links /pricing from its own nav, but /pricing returned a Cloudflare 522 from the origin, so the plan table could not be read. The homepage CTA reads \"Get Started - It's Free\", which is a trial prompt rather than a stated free plan, so freeTier stays unverified. No developer docs URL could be confirmed.",
+      "quickstart": null,
+      "capabilities": {
+        "sharedWorkflows": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Scenario",
+      "tagline": "· game-asset platform with API-driven custom model training",
+      "homepage": "https://www.scenario.com",
+      "docs": "https://docs.scenario.com",
+      "pricing": "https://www.scenario.com/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Your own trained Scenario models plus hosted base models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Scenario’s docs describe the API as \"programmatic access to everything you can do within the Scenario web application\"; API credit usage is documented separately at help.scenario.com.",
+      "quickstart": null,
+      "capabilities": {
+        "sharedWorkflows": false,
+        "publicApi": true,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+name: Add a tool
+description: Suggest a tool for this list
+title: 'Add: <tool name>'
+labels: ['new entry']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Entries are judged on whether someone can use the tool today, not on popularity.
+        A suggestion with a working link and an honest limits line gets merged fast.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Docs or API reference
+      placeholder: https://
+  - type: input
+    id: pricing
+    attributes:
+      label: Pricing page
+      description: A link, not a price. Prices change; links do not.
+      placeholder: https://
+  - type: input
+    id: repo
+    attributes:
+      label: Public GitHub repo (owner/name)
+      description: An official SDK, CLI or MCP server. Leave blank if there is none — that is a normal answer.
+      placeholder: owner/name
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does that the tools already listed do not
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Where it stops
+      description: Every entry in this list carries a limits line. An entry without one will not be merged.
+    validations:
+      required: true
+  - type: textarea
+    id: quickstart
+    attributes:
+      label: Quickstart (install command or connector URL)
+      render: shell
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: Confirmation
+      options:
+        - label: Everything above is from the vendor's own docs or my own use, not from a review roundup.
+          required: true
