@@ -7,7 +7,7 @@ A maintained dataset of **comfyui alternatives** options: what each one connects
 The tables below are generated from [`data/tools.json`](data/tools.json) by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed. Every tool on this list is a hosted product with no first-party open-source repo, so there are no star counts to report — the refresh re-stamps the check date and regenerates the tables from the data.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-09-21** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-09-26** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -40,7 +40,7 @@ One row per tool, one column per thing people actually check before committing. 
 | **[Krea](#2-krea)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) |
 | **[Freepik Spaces](#3-freepik-spaces)** | No first-party MCP server documented for Spaces | Yes | Yes | Freepik’s hosted image, video and audio models | [pricing](https://www.freepik.com/pricing) |
 | **[Figma Weave](#4-figma-weave)** | No first-party MCP server documented for Weave | No | [check](https://weave.figma.com/pricing) | Third-party models inside the Weave canvas | [pricing](https://weave.figma.com/pricing) |
-| **[Flair.ai](#5-flairai)** | No first-party MCP server documented | Yes | [check](https://www.flair.ai/pricing) | Flair’s hosted product-photography models | [pricing](https://www.flair.ai/pricing) |
+| **[Flair.ai](#5-flairai)** | No first-party MCP server documented | Yes | [check](https://flair.ai/pricing) | Flair’s hosted product-photography models | [pricing](https://flair.ai/pricing) |
 | **[Scenario](#6-scenario)** | No first-party MCP server documented | Yes | [check](https://www.scenario.com/pricing) | Your own trained Scenario models plus hosted base models | [pricing](https://www.scenario.com/pricing) |
 <!-- DATA-TABLE:END -->
 
@@ -71,9 +71,10 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
 - **Best for:** creative teams and agencies that need one shared canvas with a real API behind it
 - **Standout:** per-node cost visibility on a shared workflow, so spend is legible before anyone runs it
 - **Links:**
-  - [Homepage](https://www.wireflow.ai)
+  - [Homepage](https://www.wireflow.ai/comfyui-alternative)
   - [Docs](https://www.wireflow.ai/docs/mcp)
   - [Pricing](https://www.wireflow.ai/pricing)
+  - [Wireflow](https://www.wireflow.ai)
   - [visual AI canvas editor](https://www.wireflow.ai/visual-ai-canvas-editor)
   - [batch AI generation](https://www.wireflow.ai/features/batch-ai-generation)
   - [multi-client video workflow management](https://www.wireflow.ai/features/multi-client-video-workflow-management)
@@ -147,8 +148,8 @@ https://www.wireflow.ai/api/mcp
 - **Limits:** API access is listed only on the Enterprise tier with no self-serve developer documentation as of 2026, so there is no public endpoint to build against, and no webhooks or cost visibility. Users report that reflective and transparent surfaces such as glass and chrome render incorrectly often enough that large runs need manual review, and fine packaging text degrades badly. Scope is also narrow by design, since anything outside product photography sits outside what the templates were built for.
 - **Note:** Re-checked 2026-09-01: flair.ai's homepage lists a "Flair API" as a key feature ("Access via API for integration") and links /pricing from its own nav, but /pricing returned a Cloudflare 522 from the origin, so the plan table could not be read. The homepage CTA reads "Get Started - It's Free", which is a trial prompt rather than a stated free plan, so freeTier stays unverified. No developer docs URL could be confirmed.
 - **Links:**
-  - [Homepage](https://www.flair.ai)
-  - [Pricing](https://www.flair.ai/pricing)
+  - [Homepage](https://flair.ai)
+  - [Pricing](https://flair.ai/pricing)
 
 ### 6. Scenario
 

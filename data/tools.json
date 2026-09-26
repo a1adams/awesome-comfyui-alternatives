@@ -1,7 +1,7 @@
 {
   "keyword": "comfyui alternatives",
   "title": "Best ComfyUI Alternatives for Creative Teams (2026)",
-  "lastChecked": "2026-09-21",
+  "lastChecked": "2026-09-26",
   "capabilityChecks": [
     {
       "key": "sharedWorkflows",
@@ -25,7 +25,7 @@
       "n": 1,
       "name": "Wireflow",
       "tagline": "Best Overall",
-      "homepage": "https://www.wireflow.ai",
+      "homepage": "https://www.wireflow.ai/comfyui-alternative",
       "docs": "https://www.wireflow.ai/docs/mcp",
       "pricing": "https://www.wireflow.ai/pricing",
       "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
@@ -148,9 +148,9 @@
       "n": 5,
       "name": "Flair.ai",
       "tagline": "· ecommerce product photoshoot canvas with category templates",
-      "homepage": "https://www.flair.ai",
+      "homepage": "https://flair.ai",
       "docs": null,
-      "pricing": "https://www.flair.ai/pricing",
+      "pricing": "https://flair.ai/pricing",
       "claudeConnection": "No first-party MCP server documented",
       "restApi": true,
       "modelSupport": "Flair’s hosted product-photography models",
