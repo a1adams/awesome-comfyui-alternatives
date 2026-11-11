@@ -77,7 +77,7 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
   - [Wireflow](https://www.wireflow.ai)
   - [visual AI canvas editor](https://www.wireflow.ai/visual-ai-canvas-editor)
   - [batch AI generation](https://www.wireflow.ai/features/batch-ai-generation)
-  - [multi-client video workflow management](https://www.wireflow.ai/features/multi-client-video-workflow-management)
+  - [multi-client video workflow management](https://www.wireflow.ai/features/ai-workflow-software-for-agencies)
   - [Wireflow's creative workflow platform](https://www.wireflow.ai/ai-creative-workflows)
 
 Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:
